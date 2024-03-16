@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: dimgray;
+    align-content: center;
+    text-align: center;
+}
+.choice:hover{
+    opacity: 0.5;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.Score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    gap: 5rem;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+#msg{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    border-radius: 1rem;
+    display: inline;
+}
